@@ -57,27 +57,20 @@ public class HashTable {
     public static void add (String key, Integer value) {
 
         int index = getIndex(key);
-       // System.out.println(index);
         HashNode head = keyList.get(index);
-
-        if (head ==  null) {
-            size++;
-            keyList.add(index, new HashNode(key,value));
-        } else {
-            while (head != null) {
-                if (head.key == key) {
-                    System.out.println("Key exists");
-                    head.value = value;
-                    return;
-                }
-                head = head.next;
+        while (head != null) {
+            if (head.key == key) {
+                System.out.println("Key exists. Value will be updated.");
+                head.value = value;
+                return;
             }
-            size++;
-            head = keyList.get(index);
-            HashNode newNode = new HashNode(key,value);
-            newNode.next = head;
-            keyList.add(index,newNode);
+            head = head.next;
         }
+        size++;
+        head = keyList.get(index);
+        HashNode newNode = new HashNode(key,value);
+        newNode.next = head;
+        keyList.set(index,newNode);
     }
 
     public static String remove(String key) {
