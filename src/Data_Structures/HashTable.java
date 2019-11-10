@@ -44,11 +44,6 @@ public class HashTable {
     public static String get (String key) {
         int index = getIndex(key);
         HashNode head = keyList.get(index);
-
-        if (head == null) {
-            return null;
-        }
-
         while (head != null) {
 
             if (head.key == key) {
