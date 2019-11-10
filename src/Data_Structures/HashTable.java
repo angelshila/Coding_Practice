@@ -1,6 +1,7 @@
 package Data_Structures;
 
 import java.util.ArrayList;
+import java.util.Hashtable;
 
 class HashNode {
     String key;
@@ -24,7 +25,6 @@ public class HashTable {
     public HashTable () {
         for (int i = 0; i < capacity; i++)
             keyList.add(null);
-        System.out.println(keyList);
     }
 
     public static int size() {
@@ -41,6 +41,24 @@ public class HashTable {
         return index;
     }
 
+    public static String get (String key) {
+        int index = getIndex(key);
+        HashNode head = keyList.get(index);
+
+        if (head == null) {
+            return null;
+        }
+
+        while (head != null) {
+
+            if (head.key == key) {
+                return head.key+" "+head.value;
+            }
+            head = head.next;
+        }
+        return null;
+    }
+
     public static void add (String key, Integer value) {
 
         int index = getIndex(key);
@@ -51,15 +69,19 @@ public class HashTable {
             size++;
             keyList.add(index, new HashNode(key,value));
         } else {
-            while (head.next != null) {
-                if (head.value == value) {
-                    System.out.println("Value exists");
+            while (head != null) {
+                if (head.key == key) {
+                    System.out.println("Key exists");
+                    head.value = value;
                     return;
                 }
                 head = head.next;
             }
             size++;
-            head.next = new HashNode(key,value);
+            head = keyList.get(index);
+            HashNode newNode = new HashNode(key,value);
+            newNode.next = head;
+            keyList.add(index,newNode);
         }
     }
 
@@ -93,11 +115,14 @@ public class HashTable {
     public static void main(String[] args)
     {
         HashTable map = new HashTable();
+        System.out.println(map.get("anu"));
         map.add("anu",1 );
         map.add("shila",6 );
         map.add("teddy",8 );
         map.add("pizza",1 );
-        System.out.println(map.keyList);
+        map.add("pizza",3 );
+        System.out.println(map.get("anu"));
+        System.out.println(map.get("pizza"));
         System.out.println(map.size());
         System.out.println(map.remove("anu"));
         System.out.println(map.remove("this"));
