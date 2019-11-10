@@ -1,9 +1,6 @@
 package Data_Structures;
 
 import java.util.ArrayList;
-import java.util.Hashtable;
-import java.util.LinkedList;
-import java.util.ListIterator;
 
 class HashNode {
     String key;
@@ -20,15 +17,14 @@ class HashNode {
 
 public class HashTable {
 
-    // ArrayList of LinkedLists
-
     private static ArrayList<HashNode> keyList = new ArrayList<>();
     private static int size = 0;
-    private static int numBuckets = 10;
+    private static int capacity = 10;
 
     public HashTable () {
-        for (int i = 0; i < numBuckets; i++)
+        for (int i = 0; i < capacity; i++)
             keyList.add(null);
+        System.out.println(keyList);
     }
 
     public static int size() {
@@ -41,7 +37,7 @@ public class HashTable {
 
     public static int getIndex(String key) {
         int hashCode = key.hashCode();
-        int index = hashCode % numBuckets;
+        int index = hashCode % capacity;
         return index;
     }
 
@@ -97,15 +93,15 @@ public class HashTable {
     public static void main(String[] args)
     {
         HashTable map = new HashTable();
-        map.add("this",1 );
-        map.add("coder",2 );
-        map.add("this",4 );
-        map.add("hi",5 );
+        map.add("anu",1 );
+        map.add("shila",6 );
+        map.add("teddy",8 );
+        map.add("pizza",1 );
+        System.out.println(map.keyList);
         System.out.println(map.size());
-        System.out.println(map.remove("this"));
+        System.out.println(map.remove("anu"));
         System.out.println(map.remove("this"));
         System.out.println(map.size());
         System.out.println(map.isEmpty());
-        Hashtable hm = new Hashtable();
     }
 }
