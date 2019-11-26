@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78f5a2a0-b701-4c12-bff0-4952fe6b4bb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch1_Arrays_Strings/Q2_checkPermutation/checkPermutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch1_Arrays_Strings/Q3_URLify/URLify.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch1_Arrays_Strings/Q5_oneEditAway/OneEditAway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch1_Arrays_Strings/Q6_String_Compression/StringCompression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch2_Linked_Lists/khkh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data_Structures/Stacks_n_Queues/MyQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data_Structures/Stacks_n_Queues/MyStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programming_Interviews.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Programming_Interviews.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming_Interviews/Data_Structures/HashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming_Interviews/Data_Structures/HashTable.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
+        <option value="module-info" />
         <option value="Class" />
       </list>
     </option>
@@ -35,6 +44,10 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -48,13 +61,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HashTable">
-    <configuration name="HashTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Data_Structures.HashTable" />
+  <component name="RunManager" selected="Application.StringCompression">
+    <configuration name="IsUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q1_isUnique.IsUnique" />
       <module name="Programming_Interviews" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Data_Structures.*" />
+          <option name="PATTERN" value="Q1_isUnique.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,17 +75,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InsertionSort" />
+    <configuration name="OneEditAway" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q5_oneEditAway.OneEditAway" />
       <module name="Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Q5_oneEditAway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q6_String_Compression.StringCompression" />
+      <module name="Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Q6_String_Compression.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="URLify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q3_URLify.URLify" />
+      <module name="Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Q3_URLify.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q2_checkPermutation.checkPermutation" />
+      <module name="Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Q2_checkPermutation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HashTable" />
-        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.StringCompression" />
+        <item itemvalue="Application.OneEditAway" />
+        <item itemvalue="Application.URLify" />
+        <item itemvalue="Application.checkPermutation" />
+        <item itemvalue="Application.IsUnique" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +193,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable.java</url>
-          <line>118</line>
+          <line>111</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -142,17 +203,22 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable.java</url>
-          <line>117</line>
+          <line>110</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable.java</url>
-          <line>116</line>
+          <line>109</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Ch1_Arrays_Strings/Q2_checkPermutation/checkPermutation.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable.java</url>
-          <line>109</line>
+          <line>102</line>
           <properties class="Data_Structures.HashTable" method="main">
             <option name="EMULATED" value="true" />
           </properties>
