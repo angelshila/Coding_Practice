@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78f5a2a0-b701-4c12-bff0-4952fe6b4bb2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +50,7 @@
   <component name="RunManager" selected="Application.HashTable">
     <configuration name="HashTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashTable.HashTable" />
-      <module name="Programming_Interviews" />
+      <module name="Coding_Practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="HashTable.*" />
@@ -62,7 +63,7 @@
     </configuration>
     <configuration name="IsUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q1_isUnique.IsUnique" />
-      <module name="Programming_Interviews" />
+      <module name="Coding_Practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Q1_isUnique.*" />
@@ -75,7 +76,7 @@
     </configuration>
     <configuration name="OneEditAway" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q5_oneEditAway.OneEditAway" />
-      <module name="Programming_Interviews" />
+      <module name="Coding_Practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Q5_oneEditAway.*" />
@@ -88,7 +89,7 @@
     </configuration>
     <configuration name="StringCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q6_String_Compression.StringCompression" />
-      <module name="Programming_Interviews" />
+      <module name="Coding_Practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Q6_String_Compression.*" />
@@ -101,7 +102,7 @@
     </configuration>
     <configuration name="URLify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q3_URLify.URLify" />
-      <module name="Programming_Interviews" />
+      <module name="Coding_Practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Q3_URLify.*" />
@@ -194,10 +195,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="761" y="325" key="chooseDestDirectoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586443274953" />
-    <state x="653" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1586443757148">
+    <state x="653" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1586447962204">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="653" y="372" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586443757148" />
+    <state x="653" y="372" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586447962204" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
