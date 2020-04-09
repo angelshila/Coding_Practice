@@ -2,18 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78f5a2a0-b701-4c12-bff0-4952fe6b4bb2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ch1_Arrays_Strings/Q2_checkPermutation/checkPermutation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch1_Arrays_Strings/Q3_URLify/URLify.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch1_Arrays_Strings/Q5_oneEditAway/OneEditAway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch1_Arrays_Strings/Q6_String_Compression/StringCompression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch2_Linked_Lists/khkh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data_Structures/Stacks_n_Queues/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Data_Structures/Stacks_n_Queues/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Programming_Interviews.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Programming_Interviews.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programming_Interviews/Data_Structures/HashTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming_Interviews/Data_Structures/HashTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming_Interviews/Data_Structures/HashNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming_Interviews/Data_Structures/HashTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming_Interviews/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming_Interviews/InsertionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming_Interviews/META-INF/Programming_Interviews.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming_Interviews/META-INF/Programming_Interviews.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming_Interviews/Q1_isUnique/IsUnique.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming_Interviews/Q1_isUnique/IsUnique.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming_Interviews/Q1_isUnique/isUnique_NoDS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming_Interviews/Q1_isUnique/isUnique_NoDS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming_Interviews/Q2_checkPermutation/checkPermutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming_Interviews/Q2_checkPermutation/checkPermutation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming_Interviews/Q3_URLify/URLify.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming_Interviews/Q3_URLify/URLify.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming_Interviews/Q5_oneEditAway/OneEditAway.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming_Interviews/Q5_oneEditAway/OneEditAway.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programming_Interviews/Q6_String_Compression/StringCompression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programming_Interviews/Q6_String_Compression/StringCompression.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch1_Arrays_Strings/Q1_isUnique/IsUnique.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch1_Arrays_Strings/Q1_isUnique/isUnique_NoDS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch1_Arrays_Strings/Q2_checkPermutation/checkPermutation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch1_Arrays_Strings/Q3_URLify/URLify.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch1_Arrays_Strings/Q5_oneEditAway/OneEditAway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch1_Arrays_Strings/Q6_String_Compression/StringCompression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch2_Linked_Lists/khkh.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structures/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structures/HashTable/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InsertionSort.java" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,28 +51,36 @@
   </component>
   <component name="ProjectId" id="1QwrEK8hTs6ii9JCKD4OKf4Qioe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/Data_Structures" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.StringCompression">
+  <component name="RunManager" selected="Application.HashTable">
+    <configuration name="HashTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashTable.HashTable" />
+      <module name="Programming_Interviews" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HashTable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IsUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q1_isUnique.IsUnique" />
       <module name="Programming_Interviews" />
@@ -114,26 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="checkPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q2_checkPermutation.checkPermutation" />
-      <module name="Programming_Interviews" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Q2_checkPermutation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashTable" />
+        <item itemvalue="Application.IsUnique" />
         <item itemvalue="Application.StringCompression" />
         <item itemvalue="Application.OneEditAway" />
         <item itemvalue="Application.URLify" />
-        <item itemvalue="Application.checkPermutation" />
-        <item itemvalue="Application.IsUnique" />
       </list>
     </recent_temporary>
   </component>
@@ -163,51 +169,77 @@
       </map>
     </option>
   </component>
+  <component name="WindowStateProjectService">
+    <state x="812" y="436" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586442227617">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="812" y="436" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586442227617" />
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom" timestamp="1586446589056">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586446589056" />
+    <state width="1878" height="375" key="GridCell.Tab.0.center" timestamp="1586446589055">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586446589055" />
+    <state width="1878" height="375" key="GridCell.Tab.0.left" timestamp="1586446589054">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586446589054" />
+    <state width="1878" height="375" key="GridCell.Tab.0.right" timestamp="1586446589055">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586446589055" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom" timestamp="1586446590248">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586446590248" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center" timestamp="1586446590247">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586446590247" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left" timestamp="1586446590246">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586446590246" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right" timestamp="1586446590247">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586446590247" />
+    <state x="448" y="134" key="SettingsEditor" timestamp="1586443954482">
+      <screen x="0" y="23" width="1920" height="991" />
+    </state>
+    <state x="448" y="121" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1586443633117" />
+    <state x="448" y="134" key="SettingsEditor/0.23.1920.991@0.23.1920.991" timestamp="1586443954482" />
+    <state x="761" y="325" key="chooseDestDirectoryDialog" timestamp="1586443274953">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="761" y="325" key="chooseDestDirectoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586443274953" />
+    <state x="653" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1586443757148">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="653" y="372" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586443757148" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InsertionSort.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InsertionSort.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InsertionSort.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InsertionSort.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/InsertionSort.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable/HashTable.java</url>
           <line>111</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable/HashTable.java</url>
           <line>44</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable/HashTable.java</url>
           <line>110</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable/HashTable.java</url>
           <line>109</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
@@ -216,10 +248,30 @@
           <line>42</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable/HashTable.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable/HashTable.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable/HashTable.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable/HashTable.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable/HashTable.java</url>
           <line>102</line>
-          <properties class="Data_Structures.HashTable" method="main">
+          <properties class="HashTable.HashTable">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="11" />

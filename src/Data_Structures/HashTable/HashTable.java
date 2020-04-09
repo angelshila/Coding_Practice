@@ -1,7 +1,6 @@
-package Data_Structures;
+package HashTable;
 
 import java.util.ArrayList;
-import java.util.Hashtable;
 
 class HashNode {
     String key;
