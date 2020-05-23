@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78f5a2a0-b701-4c12-bff0-4952fe6b4bb2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CTCI/Ch3_Stacks_Queues/Q1_Three_in_One/FixedMultiStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CTCI/Ch3_Stacks_Queues/Q5_Sort_Stacks/SortStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CTCI/Ch3_Stacks_Queues/Q6_Animal_Shelter/AnimalQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data_Structures_n_Design/LFU/LFUCache1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data_Structures_n_Design/LFU/LFUCache2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding_Practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Coding_Practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structures/HashTable/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structures_n_Design/HashTable/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structures/Stacks_n_Queues/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structures_n_Design/Stacks_n_Queues/MyQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Data_Structures/Stacks_n_Queues/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Data_Structures_n_Design/Stacks_n_Queues/MyStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,9 +22,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Programming_Interviews" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,7 +39,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -45,9 +50,22 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.HashTable">
+  <component name="RunManager" selected="Application.AnimalQueue">
+    <configuration name="AnimalQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q6_Animal_Shelter.AnimalQueue" />
+      <module name="Coding_Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Q6_Animal_Shelter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HashTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HashTable.HashTable" />
       <module name="Coding_Practice" />
@@ -100,26 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q3_URLify.URLify" />
-      <module name="Coding_Practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Q3_URLify.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnimalQueue" />
         <item itemvalue="Application.HashTable" />
         <item itemvalue="Application.IsUnique" />
         <item itemvalue="Application.StringCompression" />
         <item itemvalue="Application.OneEditAway" />
-        <item itemvalue="Application.URLify" />
       </list>
     </recent_temporary>
   </component>
@@ -141,85 +146,120 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="448" y="121" key="#Project_Structure" timestamp="1590216604450">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="448" y="121" key="#Project_Structure/0.0.1920.1080/-1792.0.1792.1120@0.0.1920.1080" timestamp="1586606214106" />
+    <state x="448" y="121" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1590216604450" />
+    <state x="496" y="236" key="#Updates" timestamp="1586605164481">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="496" y="236" key="#Updates/0.0.1792.1120@0.0.1792.1120" timestamp="1586605164481" />
+    <state x="773" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1586764795175">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="773" y="253" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1586764795175" />
     <state x="812" y="436" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586442227617">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="812" y="436" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586442227617" />
-    <state width="1878" height="375" key="GridCell.Tab.0.bottom" timestamp="1586447450275">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom" timestamp="1586777335903">
+      <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586447450275" />
-    <state width="1878" height="375" key="GridCell.Tab.0.center" timestamp="1586447450273">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1792.0.1792.1120@0.0.1920.1080" timestamp="1586587058842" />
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586765260525" />
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom/0.23.1792.1032@0.23.1792.1032" timestamp="1586777335903" />
+    <state width="1750" height="304" key="GridCell.Tab.0.bottom/0.23.1792.1034@0.23.1792.1034" timestamp="1586695943718" />
+    <state width="1878" height="375" key="GridCell.Tab.0.center" timestamp="1586777335902">
+      <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586447450273" />
-    <state width="1878" height="375" key="GridCell.Tab.0.left" timestamp="1586447450273">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1920.1080/-1792.0.1792.1120@0.0.1920.1080" timestamp="1586587058840" />
+    <state width="1878" height="375" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586765260523" />
+    <state width="1878" height="375" key="GridCell.Tab.0.center/0.23.1792.1032@0.23.1792.1032" timestamp="1586777335902" />
+    <state width="1750" height="304" key="GridCell.Tab.0.center/0.23.1792.1034@0.23.1792.1034" timestamp="1586695943717" />
+    <state width="1878" height="375" key="GridCell.Tab.0.left" timestamp="1586777335901">
+      <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586447450273" />
-    <state width="1878" height="375" key="GridCell.Tab.0.right" timestamp="1586447450274">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1920.1080/-1792.0.1792.1120@0.0.1920.1080" timestamp="1586587058837" />
+    <state width="1878" height="375" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586765260523" />
+    <state width="1878" height="375" key="GridCell.Tab.0.left/0.23.1792.1032@0.23.1792.1032" timestamp="1586777335901" />
+    <state width="1750" height="304" key="GridCell.Tab.0.left/0.23.1792.1034@0.23.1792.1034" timestamp="1586695943716" />
+    <state width="1878" height="375" key="GridCell.Tab.0.right" timestamp="1586777335903">
+      <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586447450274" />
-    <state width="1878" height="375" key="GridCell.Tab.1.bottom" timestamp="1586447450277">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1920.1080/-1792.0.1792.1120@0.0.1920.1080" timestamp="1586587058841" />
+    <state width="1878" height="375" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586765260524" />
+    <state width="1878" height="375" key="GridCell.Tab.0.right/0.23.1792.1032@0.23.1792.1032" timestamp="1586777335903" />
+    <state width="1750" height="304" key="GridCell.Tab.0.right/0.23.1792.1034@0.23.1792.1034" timestamp="1586695943717" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom" timestamp="1586777335906">
+      <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586447450277" />
-    <state width="1878" height="375" key="GridCell.Tab.1.center" timestamp="1586447450276">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1586765260527" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.23.1792.1032@0.23.1792.1032" timestamp="1586777335906" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center" timestamp="1586777335904">
+      <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586447450276" />
-    <state width="1878" height="375" key="GridCell.Tab.1.left" timestamp="1586447450275">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1586765260526" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center/0.23.1792.1032@0.23.1792.1032" timestamp="1586777335904" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left" timestamp="1586777335903">
+      <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586447450275" />
-    <state width="1878" height="375" key="GridCell.Tab.1.right" timestamp="1586447450276">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1586765260525" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left/0.23.1792.1032@0.23.1792.1032" timestamp="1586777335903" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right" timestamp="1586777335905">
+      <screen x="0" y="23" width="1792" height="1032" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586447450276" />
-    <state x="448" y="134" key="SettingsEditor" timestamp="1586443954482">
-      <screen x="0" y="23" width="1920" height="991" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1586765260527" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right/0.23.1792.1032@0.23.1792.1032" timestamp="1586777335905" />
+    <state x="418" y="125" key="SettingsEditor" timestamp="1590126143794">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="448" y="121" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1586443633117" />
+    <state x="418" y="125" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1590126143794" />
+    <state x="448" y="121" key="SettingsEditor/0.0.1920.1080/-1792.0.1792.1120@0.0.1920.1080" timestamp="1586606123958" />
+    <state x="448" y="121" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1589800054783" />
     <state x="448" y="134" key="SettingsEditor/0.23.1920.991@0.23.1920.991" timestamp="1586443954482" />
     <state x="761" y="325" key="chooseDestDirectoryDialog" timestamp="1586443274953">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="761" y="325" key="chooseDestDirectoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586443274953" />
-    <state x="653" y="372" key="com.intellij.ide.util.TipDialog" timestamp="1586447962204">
+    <state x="609" y="378" key="com.intellij.ide.util.TipDialog" timestamp="1586604859971">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="609" y="378" key="com.intellij.ide.util.TipDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1586604859971" />
+    <state x="653" y="372" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586447962204" />
+    <state x="383" y="162" key="new project wizard" timestamp="1588781952934">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="653" y="372" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1586447962204" />
+    <state x="383" y="162" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1588781952934" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable/HashTable.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structures_n_Design/HashTable/HashTable.java</url>
           <line>111</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable/HashTable.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structures_n_Design/HashTable/HashTable.java</url>
           <line>44</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable/HashTable.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structures_n_Design/HashTable/HashTable.java</url>
           <line>110</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable/HashTable.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structures_n_Design/HashTable/HashTable.java</url>
           <line>109</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
@@ -229,27 +269,52 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable/HashTable.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structures_n_Design/HashTable/HashTable.java</url>
           <line>103</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable/HashTable.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structures_n_Design/HashTable/HashTable.java</url>
           <line>104</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable/HashTable.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structures_n_Design/HashTable/HashTable.java</url>
           <line>57</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable/HashTable.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structures_n_Design/HashTable/HashTable.java</url>
           <line>38</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CTCI/Ch3_Stacks_Queues/Q6_Animal_Shelter/AnimalQueue.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CTCI/Ch3_Stacks_Queues/Q6_Animal_Shelter/AnimalQueue.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CTCI/Ch3_Stacks_Queues/Q6_Animal_Shelter/AnimalQueue.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CTCI/Ch3_Stacks_Queues/Q6_Animal_Shelter/AnimalQueue.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/CTCI/Ch3_Stacks_Queues/Q6_Animal_Shelter/AnimalQueue.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Data_Structures/HashTable/HashTable.java</url>
+          <url>file://$PROJECT_DIR$/src/Data_Structures_n_Design/HashTable/HashTable.java</url>
           <line>102</line>
           <properties class="HashTable.HashTable">
             <option name="EMULATED" value="true" />

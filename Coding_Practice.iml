@@ -6,13 +6,15 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Ch1_Arrays_Strings" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Ch2_Linked_Lists" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/Data_Structures" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Data_Structures_n_Design" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Ch3_Stacks_Queues" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/CTCI" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Sorting" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/CTCI/Ch1_Arrays_Strings" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/CTCI/Ch2_Linked_Lists" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/CTCI/Ch3_Stacks_Queues" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Data_Structures_n_Design/Design" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Data_Structures_n_Design/DS" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
