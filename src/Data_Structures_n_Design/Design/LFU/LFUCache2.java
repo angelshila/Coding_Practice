@@ -51,6 +51,7 @@ public class LFUCache2 {
     private void evict(int key) {
         countToLRUKeys.get(min).remove(key);
         keyToVal.remove(key);
+        keyToCount.remove(key);
     }
 
     private void putCount(int key, int count) {
